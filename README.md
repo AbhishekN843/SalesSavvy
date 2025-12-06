@@ -96,6 +96,7 @@ The app will be available at http://localhost:5173
 
 
  **Production Build:**
+ 
 Create an optimized build for production (Static Files):
 
 ```bash
@@ -107,11 +108,11 @@ Preview the production build locally:
 pnpm preview
 ```
 
-**🐳 Docker Deployment:**
+## 🐳 Docker Deployment
 
 This project includes full Docker support for containerized deployment (Nginx Server).
 
-Build and run with Docker Compose:
+**Build and run with Docker Compose:**
 
 ```bash
 docker compose up --build
