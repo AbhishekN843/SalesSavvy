@@ -90,3 +90,29 @@ It is production-ready, supporting containerization via **Docker** and serving v
 Start the Vite development server with hot-reload:
 ```bash
 pnpm dev
+
+
+The app will be available at http://localhost:5173
+
+Production Build
+Create an optimized build for production (Static Files):
+
+Bash
+
+pnpm build
+Preview the production build locally:
+
+Bash
+
+pnpm preview
+🐳 Docker Deployment
+This project includes full Docker support for containerized deployment (Nginx Server).
+
+Build and run with Docker Compose:
+
+Bash
+
+docker compose up --build
+The containerized app will be available at http://localhost:5173
+
+Developed by Abhishek
