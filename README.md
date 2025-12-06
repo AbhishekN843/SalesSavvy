@@ -108,6 +108,7 @@ pnpm preview
 ```
 
 **🐳 Docker Deployment:**
+
 This project includes full Docker support for containerized deployment (Nginx Server).
 
 Build and run with Docker Compose:
